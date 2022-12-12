@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Core Library",
+  "extends": "./base.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "lib": ["es2015", "dom", "dom.iterable"],
+    "module": "ESNext",
+    "target": "es6"
+  }
+}

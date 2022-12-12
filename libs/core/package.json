@@ -1,0 +1,40 @@
+{
+  "name": "@tar/core",
+  "description": "Tartarus Core",
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "@tar/themes": "*",
+    "@tar/tsconfig": "*",
+    "@types/jest": "^29.2.4",
+    "@types/react": "*",
+    "@types/react-dom": "*",
+    "@types/react-test-renderer": "^18.0.0",
+    "@types/styled-components": "^5.1.26",
+    "babel-jest": "^29.3.1",
+    "jest": "^29.3.1",
+    "jest-environment-jsdom": "^29.3.1",
+    "react": "^18.2.0",
+    "react-ionicons": "^4.2.0",
+    "react-test-renderer": "^18.2.0",
+    "styled-components": "^5.3.6",
+    "tsup": "^6.5.0",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^2.9.10",
+    "classnames": "^2.3.2",
+    "polished": "^4.2.2",
+    "react-hook-form": "^7.40.0",
+    "yup": "^0.32.11"
+  }
+}

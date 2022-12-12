@@ -1,0 +1,5 @@
+{
+  "extends": "@tar/tsconfig/core.json",
+  "include": ["stories/**.tsx"],
+  "exclude": ["node_modules"]
+}
