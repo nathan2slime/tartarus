@@ -6,6 +6,7 @@ import { PersistGate } from 'redux-persist/integration/react';
 import App from './app';
 import reportWebVitals from './reportWebVitals';
 import { persistor, store } from './store';
+import { register } from './serviceWorkerRegistration';
 
 const wrapper = document.getElementById('app') as HTMLElement;
 
@@ -21,4 +22,5 @@ app.render(
   </StrictMode>
 );
 
+register();
 reportWebVitals();
