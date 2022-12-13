@@ -47,12 +47,19 @@ Create an `.env` file in the path `apps/app`, and add the environment variables
 ```
 REACT_APP_API_URL=https://servicodados.ibge.gov.br/api/v1/localidades
 GENERATE_SOURCEMAP=false
-NODE_ENV=production
 ```
 
-### Starting the server
+### Starting the app
 
 Enter the `apps/app` directory and run the command below
+
+```
+yarn start
+```
+
+### Starting the storybook
+
+Enter the `apps/storybook` directory and run the command below
 
 ```
 yarn start
