@@ -32,15 +32,13 @@ export const SelectWrapper = styled.div<SelectStylesProps>`
       background-color: ${props => props.theme.foregroundColorDown};
       border: 1px solid
         ${props =>
-          props.error ? props.theme.secondaryColorUp : props.theme.borderColor};
+          props.error ? props.theme.errorColorUp : props.theme.borderColor};
       outline: none;
       font-size: 0.845rem;
 
       &:focus {
         border-color: ${props =>
-          props.error
-            ? props.theme.secondaryColorUp
-            : props.theme.primaryColorUp};
+          props.error ? props.theme.errorColorUp : props.theme.primaryColorUp};
       }
 
       &::selection {
@@ -64,7 +62,7 @@ export const SelectWrapper = styled.div<SelectStylesProps>`
     }
 
     span {
-      color: ${props => props.theme.secondaryColorUp};
+      color: ${props => props.theme.errorColorUp};
       font-size: 0.75rem;
       margin-top: 7px;
     }
