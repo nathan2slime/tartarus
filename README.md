@@ -12,6 +12,15 @@
   </p>
 </div>
 
+### Deploys
+
+| App      | Storybook |
+| ----------- | ----------- |
+| <a href="https://tartarus-county.vercel.app/">https://tartarus-county.vercel.app</a>| <a href="https://storytartarus.vercel.app/">https://storytartarus.vercel.app</a>|
+
+
+
+
 ### Required technologies
 
 ```
