@@ -34,7 +34,7 @@
 Download the repository using the following command in your terminal
 
 ```
-git clone git@github.com:nathan2slime/tartarus.git
+git clone https://github.com/nathan2slime/tartarus.git
 ```
 
 Enter the directory and install the dependencies with yarn
