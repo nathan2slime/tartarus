@@ -3,7 +3,9 @@
     <img src="https://tartarus-county.vercel.app/logo192.png" alt="Tartarus" width="120" height="120">
   </a>
 
-  <h3 align="center">Tartarus</h3>
+  <h3 align="center">
+  <a href="https://tartarus-county.vercel.app/" target="_black">Tartarus</a>
+  </h3>
 
   <p align="center">
     Obtain information from a Brazilian municipality
