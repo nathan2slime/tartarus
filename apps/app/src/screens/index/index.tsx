@@ -19,8 +19,8 @@ import { getStatesService } from '../../services/states.service';
 import { setStatesAction } from '../../store/actions/states.actions';
 import { AppState } from '../../store';
 import { IndexWrapper } from './styles';
-import { StatesState } from '../../models/states.model';
-import { County } from '../../models/counties.model';
+import { StatesState } from '../../services/models/states.model';
+import { County } from '../../services/models/counties.model';
 import {
   getCountiesService,
   getCountyService,

@@ -4,7 +4,7 @@ import {
   setCountiesAction,
   setCurrentCountyAction,
 } from '../actions/counties.actions';
-import { CountiesState } from '../../models/counties.model';
+import { CountiesState } from '../../services/models/counties.model';
 
 const INITIAL: CountiesState = {
   data: [],

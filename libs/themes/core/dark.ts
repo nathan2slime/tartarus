@@ -13,6 +13,6 @@ export const dark: Theme = {
   borderColor: '#44475a',
   errorColorUp: '#ff5555',
   errorColorDown: '#b22033',
-  secondaryColorDown: '#f2d532',
-  secondaryColorUp: '#f2d532',
+  secondaryColorDown: '#fb7858',
+  secondaryColorUp: '#fb7858',
 };

@@ -2,9 +2,9 @@ import { configureStore, combineReducers } from '@reduxjs/toolkit';
 import { persistStore, persistReducer, PersistConfig } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
 
-import { CountiesState } from '../models/counties.model';
-import { StatesState } from '../models/states.model';
-import { ThemeState } from '../models/theme.model';
+import { CountiesState } from '../services/models/counties.model';
+import { StatesState } from '../services/models/states.model';
+import { ThemeState } from '../services/models/theme.model';
 
 import countiesReducer from './reducers/counties.reducer';
 import statesReducer from './reducers/states.reducer';

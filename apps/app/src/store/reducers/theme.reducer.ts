@@ -1,5 +1,5 @@
 import { createReducer } from '@reduxjs/toolkit';
-import { ThemeState } from '../../models/theme.model';
+import { ThemeState } from '../../services/models/theme.model';
 
 import { setThemeAction } from '../actions/theme.actions';
 

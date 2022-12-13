@@ -1,6 +1,6 @@
 import api, { RequestReponse } from '../api';
-import { statesBuilder } from '../builders/states.builder';
-import { StatesReponse, StatesState } from '../models/states.model';
+import { statesBuilder } from './builders/states.builder';
+import { StatesReponse, StatesState } from './models/states.model';
 
 export const getStatesService = async (): Promise<
   RequestReponse<StatesState>

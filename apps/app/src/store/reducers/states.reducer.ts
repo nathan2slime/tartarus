@@ -1,6 +1,6 @@
 import { createReducer } from '@reduxjs/toolkit';
 
-import { StatesState } from '../../models/states.model';
+import { StatesState } from '../../services/models/states.model';
 import { setStatesAction } from '../actions/states.actions';
 
 const INITIAL: StatesState = [];
