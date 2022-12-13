@@ -9,6 +9,7 @@ import {
 } from '@tar/core';
 import themes from '@tar/themes';
 import { useDispatch, useSelector } from 'react-redux';
+import ReactLoading from 'react-loading';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { useForm } from 'react-hook-form';
 import { Close, MoonOutline, SunnyOutline } from 'react-ionicons';
@@ -255,13 +256,15 @@ const Index: FC = () => {
             error={!!errors.state}
             message={errors.state?.message?.toString()}
           >
-            {stateDataResearch.map(state => (
-              <TarOption
-                key={state.id}
-                title={state.name}
-                slug={state.initials}
-              />
-            ))}
+            {(stateDataResearch.length > 0 ? states : stateDataResearch).map(
+              state => (
+                <TarOption
+                  key={state.id}
+                  title={state.name}
+                  slug={state.initials}
+                />
+              )
+            )}
           </TarSelect>
         </div>
 
@@ -297,7 +300,16 @@ const Index: FC = () => {
             disable={isLoadingCounty ? true : !isValid && !isDirty}
             bold={600}
           >
-            GET
+            {isLoadingCounty ? (
+              <ReactLoading
+                type="balls"
+                color={currentThemeData.textColorDown}
+                height={24}
+                width={24}
+              />
+            ) : (
+              'GET'
+            )}
           </TarButton>
         </TarToggleModal>
       </main>

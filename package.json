@@ -6,8 +6,6 @@
     "commit": "git-cz",
     "prepare": "husky install ",
     "start": "turbo start --no-daemon --no-cache",
-    "start#app": "turbo start --filter=@tar/app --no-daemon --no-cache",
-    "build#app": "turbo build --filter=@tar/app --no-daemon --no-cache",
     "test": "turbo test",
     "build": "turbo build --no-daemon --no-cache",
     "dev": "turbo dev --parallel --continue --no-daemon --no-cache"
