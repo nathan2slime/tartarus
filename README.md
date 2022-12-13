@@ -24,7 +24,7 @@
 ### Required technologies
 
 ```
-1. Node.js 16x
+1. Node.js v16.16.0 (LTS)
 3. Git
 5. Yarn
 ```
