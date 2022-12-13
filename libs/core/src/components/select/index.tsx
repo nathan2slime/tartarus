@@ -94,7 +94,12 @@ export const TarSelect: FC<TarSelectProps> = ({
       disable={!!disable}
       height={height}
     >
-      <div ref={header}>
+      <div
+        ref={header}
+        role="button"
+        aria-invalid={error}
+        aria-disabled={disable}
+      >
         {label && <label>{label}</label>}
 
         <input

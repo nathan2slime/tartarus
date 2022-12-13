@@ -26,6 +26,8 @@ export const TarButton: FC<TarButtonProps> = props => {
   return (
     <ButtonWrapper
       {...props}
+      aria-disabled={props.disable}
+      role="button"
       className={classNames([{ active, ...props.cssClasses }])}
       onClick={onClick}
     >

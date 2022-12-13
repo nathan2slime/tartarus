@@ -237,6 +237,7 @@ const Index: FC = () => {
           />
         )}
       </TarButton>
+
       <main>
         <h3>Tartarus</h3>
         <p>City information</p>
