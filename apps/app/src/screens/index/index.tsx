@@ -256,7 +256,7 @@ const Index: FC = () => {
             error={!!errors.state}
             message={errors.state?.message?.toString()}
           >
-            {(stateDataResearch.length > 0 ? states : stateDataResearch).map(
+            {(stateDataResearch.length == 0 ? states : stateDataResearch).map(
               state => (
                 <TarOption
                   key={state.id}
