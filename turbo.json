@@ -9,7 +9,8 @@
       "dependsOn": ["^build"]
     },
     "start": {
-      "dependsOn": ["^build"]
+      "dependsOn": ["^build"],
+      "cache": false
     },
     "test": {}
   }
