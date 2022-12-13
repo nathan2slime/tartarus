@@ -13,5 +13,7 @@
       "cache": false
     },
     "test": {}
-  }
+  },
+  "globalDependencies": [".env"],
+  "globalEnv": ["API_URL", "GENERATE_SOURCEMAP", "NODE_ENV"]
 }
