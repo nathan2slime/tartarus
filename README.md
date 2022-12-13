@@ -12,7 +12,7 @@
   </p>
 </div>
 
-### Deploys
+### Deployments
 
 | App      | Storybook |
 | ----------- | ----------- |
